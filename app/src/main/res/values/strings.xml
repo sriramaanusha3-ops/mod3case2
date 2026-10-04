@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">mod3case2</string>
+    <string name="app_branding_title">mod3case2</string>
+    <string name="app_branding_lab">AI EVALUATION LAB</string>
+    <string name="app_branding_subtitle">LLM vs RAG • Factual Accuracy Benchmark</string>
+    
+    <!-- Dashboard -->
+    <string name="engine_online">● BENCHMARK ENGINE ONLINE</string>
+    <string name="hero_title">Which AI\ngets it right?</string>
+    <string name="hero_subtitle">Compare a plain LLM against a document-grounded RAG system.</string>
+    <string name="plain_llm_title">PLAIN LLM</string>
+    <string name="plain_llm_desc">Direct Generation\nNo Documents</string>
+    <string name="rag_title">RAG</string>
+    <string name="rag_desc">Retrieved Context\nSource Grounded</string>
+    <string name="btn_run_demo">✦ RUN DEMO EXPERIMENT</string>
+    
+    <!-- Compare -->
+    <string name="header_new_comparison">NEW COMPARISON</string>
+    <string name="hint_ask_question">Ask a knowledge-heavy question...</string>
+    <string name="label_question_type">QUESTION TYPE</string>
+    <string name="btn_run_comparison">✦ RUN COMPARISON</string>
+    <string name="type_knowledge">Knowledge</string>
+    <string name="type_document">Document</string>
+    <string name="type_factual">Factual</string>
+    <string name="type_custom">Custom</string>
+    
+    <!-- Processing Timeline -->
+    <string name="running_ai_benchmark">RUNNING AI BENCHMARK</string>
+    <string name="step_01">01  Sending question to Plain LLM</string>
+    <string name="step_02">02  Generating query embedding</string>
+    <string name="step_03">03  Searching knowledge base</string>
+    <string name="step_04">04  Building retrieved context</string>
+    <string name="step_05">05  Generating RAG answer</string>
+    <string name="step_06">06  Comparing responses</string>
+    
+    <!-- Results -->
+    <string name="comparison_results">COMPARISON RESULTS</string>
+    <string name="winner_rag">BEST GROUNDED ANSWER: RAG</string>
+    <string name="winner_plain">DIRECT ANSWER: PLAIN LLM</string>
+    <string name="winner_tie">NO CLEAR WINNER</string>
+    <string name="retrieved_sources">RETRIEVED SOURCES</string>
+    <string name="retrieval_quality">RETRIEVAL QUALITY</string>
+    <string name="top_similarity">Top Similarity</string>
+    <string name="chunks_retrieved">Chunks Retrieved</string>
+    <string name="documents_used">Documents Used</string>
+    <string name="factual_evaluation">FACTUAL EVALUATION</string>
+    <string name="reference_answer">REFERENCE ANSWER</string>
+    <string name="ground_truth_label">GROUND TRUTH / REFERENCE</string>
+    <string name="fact_check">FACT CHECK</string>
+    <string name="hallucination_analysis">HALLUCINATION ANALYSIS</string>
+    <string name="heuristic_estimate">Heuristic estimate</string>
+    <string name="benchmark_metrics">BENCHMARK METRICS</string>
+    
+    <!-- Evaluation Buttons -->
+    <string name="btn_correct">✓ CORRECT</string>
+    <string name="btn_partial">△ PARTIAL</string>
+    <string name="btn_incorrect">✕ INCORRECT</string>
+    <string name="btn_no_evidence">\? NOT ENOUGH EVIDENCE</string>
+    <string name="btn_save_eval">SAVE EVALUATION</string>
+    
+    <!-- Navigation -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_compare">Compare</string>
+    <string name="nav_benchmarks">Benchmarks</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_how_it_works">How It Works</string>
+</resources>

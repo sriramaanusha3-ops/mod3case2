@@ -1,0 +1,20 @@
+# Deep Learning Architectures and Backpropagation Optimization
+Document ID: DOC-DL-006
+Subject: Forward Propagation, Loss Landscapes, Chain Rule Backpropagation, and Adaptive Optimizers
+
+--- SECTION 1: ARTIFICIAL NEURAL NETWORK ARCHITECTURE ---
+A deep neural network consists of an input layer, multiple parameterized hidden layers, and an output layer. In forward propagation, each neuron computes an affine transformation z = W*x + b followed by a non-linear activation function a = sigma(z) (e.g., ReLU, GeLU, Sigmoid, Tanh), providing the capacity to approximate complex high-dimensional non-linear functions.
+
+--- SECTION 2: THE BACKPROPAGATION ALGORITHM ---
+Backpropagation is the algorithm that computes the analytical gradient of the scalar objective loss function L with respect to all trainable weights W and biases b throughout the computational graph:
+1. The forward pass computes layer activations and evaluates loss L(y_hat, y).
+2. The backward pass applies the multivariate calculus chain rule from the final loss node back through preceding layers:
+   dL/dW^(l) = (dL/dz^(l)) * (a^(l-1))^T
+3. Error vectors delta^(l) = dL/dz^(l) are propagated backward recursively:
+   delta^(l) = ((W^(l+1))^T * delta^(l+1)) elementwise-multiplied with sigma'(z^(l))
+
+--- SECTION 3: OPTIMIZATION TECHNIQUES ---
+Gradients guide parameter updates:
+- Stochastic Gradient Descent (SGD) with momentum
+- Adaptive moment estimation (Adam, AdamW), which maintains exponentially decaying running averages of past gradients (first moment) and squared gradients (second moment).
+Regularization techniques like weight decay (L2), Batch Normalization, Layer Normalization, and Dropout mitigate overfitting in deep networks.

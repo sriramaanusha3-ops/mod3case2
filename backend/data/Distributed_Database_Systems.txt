@@ -1,0 +1,17 @@
+# Distributed Database Systems, Consistency Models, and the CAP Theorem
+Document ID: DOC-DB-008
+Subject: Brewer's CAP Theorem, PACELC, Replication Protocols, and Consensus
+
+--- SECTION 1: THE CAP THEOREM ---
+Formulated by Eric Brewer and formally proven by Seth Gilbert and Nancy Lynch, the CAP theorem states that a distributed data store can guarantee at most two of the following three properties simultaneously:
+1. Consistency (C): Every read operation returns the most recent write or an error (linearizability).
+2. Availability (A): Every non-failing node returns a successful, non-error response for any incoming read or write request, without guaranteeing it contains the most recent write.
+3. Partition Tolerance (P): The network system continues to function despite an arbitrary number of messages being dropped, partitioned, or delayed by network hardware failures.
+
+--- SECTION 2: SYSTEM TRADE-OFFS (CP VS AP) ---
+In real-world distributed physical networks, network partitions (P) are unavoidable. Consequently, distributed database architects must choose between:
+- CP Systems (Consistency over Availability): When a partition occurs, nodes reject writes or block reads to avoid divergent data states (e.g., Google Spanner, Apache HBase, etcd, ZooKeeper, MongoDB with majority concerns).
+- AP Systems (Availability over Consistency): Nodes accept reads and writes during partitions, reconciling divergent versions later using eventual consistency, vector clocks, or Conflict-Free Replicated Data Types (CRDTs) (e.g., Apache Cassandra, Amazon DynamoDB, Couchbase).
+
+--- SECTION 3: DISTRIBUTED CONSENSUS ALGORITHMS ---
+To achieve strong consistency in replicated state machines, CP systems utilize consensus protocols such as Paxos and Raft, ensuring leader election, log replication quorum agreement (requiring (N/2)+1 nodes), and deterministic state transitions.

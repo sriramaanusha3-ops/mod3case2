@@ -1,0 +1,16 @@
+# Machine Learning Fundamentals and Paradigms
+Document ID: DOC-ML-001
+Subject: Core Principles of Supervised, Unsupervised, and Reinforcement Learning
+
+--- SECTION 1: SUPERVISED LEARNING PRINCIPLES ---
+Supervised learning is the foundational machine learning paradigm in which an algorithm is trained on an input dataset where each sample is paired with a corresponding ground-truth target label. The mathematical objective of supervised learning is to approximate an unknown mapping function f: X -> Y such that for any new input vector x in feature space X, the predicted output y_hat = f(x) closely matches the true label y in target space Y.
+
+Training involves feeding feature vectors through model parameters, computing a task-specific loss function (such as Mean Squared Error for continuous regression tasks or Cross-Entropy loss for categorical classification tasks), and iteratively optimizing parameters using gradient-based optimization techniques.
+
+Key supervised learning algorithms include Linear Regression, Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Gradient Boosted Trees (e.g., XGBoost, LightGBM), and Deep Neural Networks. A critical evaluation metric in supervised learning is generalization performance on an unseen test dataset, avoiding overfitting via regularization (L1 Lasso, L2 Ridge, Dropout) and cross-validation protocols.
+
+--- SECTION 2: UNSUPERVISED LEARNING ---
+Unsupervised learning operates on unlabeled data where target outputs Y are absent. The system aims to discover intrinsic geometric, statistical, or cluster structures within feature space X. Principal methods include K-Means clustering, Hierarchical Agglomerative clustering, Gaussian Mixture Models (GMMs), and dimensionality reduction algorithms such as Principal Component Analysis (PCA) and t-Distributed Stochastic Neighbor Embedding (t-SNE).
+
+--- SECTION 3: REINFORCEMENT LEARNING ---
+Reinforcement learning models an autonomous agent interacting with a Markov Decision Process (MDP) environment. The agent takes actions to transition between states, receiving scalar reward signals. The goal is to learn an optimal policy pi(a|s) that maximizes the expected cumulative discounted future reward over a trajectory horizon.

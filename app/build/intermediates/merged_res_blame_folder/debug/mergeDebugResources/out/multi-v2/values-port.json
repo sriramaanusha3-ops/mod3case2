@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mod3case2.app-mergeDebugResources-2:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\srira\\.gradle\\caches\\8.14\\transforms\\4cf361bfa0f9a167ba7b78ea8945539e\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

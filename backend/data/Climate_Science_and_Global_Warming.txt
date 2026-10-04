@@ -1,0 +1,14 @@
+# Climate Science, Atmospheric Physics, and Global Warming
+Document ID: DOC-ENV-004
+Subject: Anthropogenic Greenhouse Gas Emissions, Radiative Forcing, and Earth System Impacts
+
+--- SECTION 1: THE GREENHOUSE EFFECT AND RADIATIVE FORCING ---
+The Earth's planetary temperature equilibrium is governed by the balance between incoming shortwave solar radiation and outgoing longwave terrestrial infrared radiation. Atmospheric greenhouse gases (GHGs) absorb outgoing infrared radiation and re-emit thermal energy isotropically, warming the lower troposphere—a mechanism known as radiative forcing.
+
+Since the Industrial Revolution (circa 1750), human industrial, transport, and agricultural activities have drastically increased atmospheric concentrations of key greenhouse gases:
+1. Carbon Dioxide (CO2): Elevated from pre-industrial levels of ~280 ppm to over 420 ppm, primarily driven by fossil fuel combustion (coal, oil, gas) and land-use changes/deforestation.
+2. Methane (CH4): A potent short-lived climate pollutant with a Global Warming Potential (GWP) ~28-36 times higher than CO2 over a 100-year horizon, sourced from enteric fermentation in ruminant livestock, rice paddy cultivation, fugitive fossil fuel leaks, and anaerobic landfill decomposition.
+3. Nitrous Oxide (N2O): Originating largely from synthetic nitrogen fertilizer application in commercial agriculture.
+
+--- SECTION 2: OBSERVED CLIMATIC CONSEQUENCES ---
+Key empirical manifestations include global mean surface temperature increase exceeding 1.1°C above pre-industrial baselines, thermal expansion of oceans and cryospheric ice sheet mass loss accelerating global sea-level rise, ocean acidification due to dissolved CO2 forming carbonic acid, and increased frequency and severity of extreme weather events (droughts, heatwaves, cyclones, and intense precipitation).

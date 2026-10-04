@@ -1,0 +1,15 @@
+# Cybersecurity Architectures: Zero Trust Network Architecture
+Document ID: DOC-SEC-007
+Subject: Core Tenets, Microsegmentation, Continuous Verification, and Least Privilege
+
+--- SECTION 1: THE DEMISE OF PERIMETER DEFENSE ---
+Traditional castle-and-moat security models granted implicit trust to any traffic or entity inside the corporate local area network perimeter. As cloud migration, remote hybrid work, and sophisticated lateral movement attacks proliferated, perimeter models proved vulnerable to credential theft, insider threats, and Advanced Persistent Threats (APTs).
+
+--- SECTION 2: CORE TENETS OF ZERO TRUST (NIST SP 800-207) ---
+Zero Trust Architecture (ZTA) operates on the fundamental motto: "Never Trust, Always Verify."
+Key foundational principles include:
+1. All resource requests are treated as untrusted, regardless of network location (internal vs external).
+2. Explicit Continuous Verification: Continuous dynamic authentication and authorization based on multi-factor authentication (MFA), device health posture, behavioral analytics, and contextual risk signals.
+3. Principle of Least Privilege: Access is granted just-in-time and just-enough (JIT/JEA), restricting user and service permissions to the minimum necessary for specific tasks.
+4. Microsegmentation: Decomposing enterprise networks into granular secure zones to prevent lateral threat migration.
+5. Assume Breach: Minimizing blast radius and continuously collecting telemetry logs across endpoints, networks, identities, and cloud workloads for real-time SIEM/SOAR inspection.

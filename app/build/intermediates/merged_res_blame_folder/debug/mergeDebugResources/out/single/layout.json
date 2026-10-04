@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/item_source.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/item_source.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/item_benchmark_question.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/item_benchmark_question.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_dashboard.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/item_fact_check.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/item_fact_check.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_history.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_history.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/activity_processing.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/activity_processing.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/item_history.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_benchmark.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_benchmark.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_how_it_works.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_how_it_works.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/activity_results.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_compare.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_compare.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.mod3case2.app-mergeDebugResources-3:/layout/fragment_settings.xml",
+        "source": "com.example.mod3case2.app-main-6:/layout/fragment_settings.xml"
+    }
+]

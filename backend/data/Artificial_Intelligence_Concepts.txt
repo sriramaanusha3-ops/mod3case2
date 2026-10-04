@@ -1,0 +1,19 @@
+# Natural Language Processing and the Transformer Architecture
+Document ID: DOC-AI-009
+Subject: Attention Mechanisms, Scaled Dot-Product Attention, Multi-Head Projections, and LLM Foundation
+
+--- SECTION 1: LIMITATIONS OF RECURRENT MODELS ---
+Prior sequential models like Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) networks processed tokens sequentially from left to right. This created computational bottlenecks preventing GPU training parallelization and caused vanishing gradients over long context horizons.
+
+--- SECTION 2: THE TRANSFORMER AND SELF-ATTENTION (Vaswani et al., 2017) ---
+The Transformer model relies exclusively on attention mechanisms to capture global dependencies between input and output tokens without recurrence or convolution.
+1. Scaled Dot-Product Attention:
+   Attention(Q, K, V) = softmax( (Q * K^T) / sqrt(d_k) ) * V
+   where Query (Q), Key (K), and Value (V) matrices are learned linear projections of input embeddings, and sqrt(d_k) scales variance to prevent softmax saturation in high dimensions.
+2. Multi-Head Attention (MHA):
+   Projects queries, keys, and values h times with distinct learned parameter matrices, allowing the model to jointly attend to information across diverse representation subspaces at different relative positions.
+3. Positional Encoding:
+   Because self-attention is permutation-invariant, sinusoidal positional encodings or Rotary Position Embeddings (RoPE) inject geometric token ordering into representations.
+
+--- SECTION 3: LARGE LANGUAGE MODEL FOUNDATIONS ---
+Transformers serve as the structural backbone for autoregressive decoder-only models (e.g., GPT, Claude, Gemini, Llama) and masked encoder models (BERT), powering contemporary generative AI, summarization, code generation, and retrieval-augmented workflows.

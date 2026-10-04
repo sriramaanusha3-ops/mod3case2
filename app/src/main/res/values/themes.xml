@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme: AI Benchmark — Midnight Lab -->
+    <style name="Theme.Mod3case2" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorPrimaryVariant">@color/purple_bright</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/cyan_accent</item>
+        <item name="colorSecondaryVariant">@color/cyan_bright</item>
+        <item name="colorOnSecondary">@color/bg_dark</item>
+        
+        <!-- Backgrounds -->
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/surface_primary</item>
+        <item name="colorOnSurface">@color/text_white</item>
+        
+        <!-- Status Bar and Navigation Bar -->
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bottom_nav_bg</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+</resources>

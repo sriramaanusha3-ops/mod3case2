@@ -1,0 +1,162 @@
+[
+  {
+    "id": "q001",
+    "question": "What is supervised learning?",
+    "category": "Machine Learning",
+    "difficulty": "Fundamental",
+    "reference_answer": "Supervised learning is a machine learning paradigm where an algorithm trains on an input dataset with corresponding ground-truth target labels. The model learns a mapping function from input features to output targets, enabling it to accurately predict labels on unseen testing data through loss optimization (e.g., MSE or Cross-Entropy).",
+    "relevant_documents": [
+      "Machine_Learning_Fundamentals.txt"
+    ],
+    "key_facts": [
+      "Requires labeled training data with input-output pairs",
+      "Learns a mapping function from features to target labels",
+      "Common tasks include regression and classification",
+      "Minimizes loss function between predictions and ground-truth"
+    ]
+  },
+  {
+    "id": "q002",
+    "question": "How does CRISPR-Cas9 work in gene editing?",
+    "category": "Biotechnology",
+    "difficulty": "Advanced",
+    "reference_answer": "CRISPR-Cas9 is a targeted genome-editing tool consisting of a guide RNA (gRNA) and the Cas9 endonuclease enzyme. The gRNA sequence guides Cas9 to a specific complementary 20-nucleotide target DNA sequence adjacent to a Protospacer Adjacent Motif (PAM). Cas9 introduces a double-strand break (DSB), triggering host cellular DNA repair mechanisms like Non-Homologous End Joining (NHEJ) or Homology-Directed Repair (HDR) for gene insertion or knockout.",
+    "relevant_documents": [
+      "CRISPR_and_Gene_Editing.txt"
+    ],
+    "key_facts": [
+      "Uses synthetic guide RNA (gRNA) to match target DNA sequence",
+      "Cas9 endonuclease creates precise double-strand DNA breaks",
+      "Requires a Protospacer Adjacent Motif (PAM) sequence for binding",
+      "Triggers cellular repair pathways including NHEJ and HDR"
+    ]
+  },
+  {
+    "id": "q003",
+    "question": "What caused the 2008 financial crisis?",
+    "category": "Economics & Finance",
+    "difficulty": "Comprehensive",
+    "reference_answer": "The 2008 global financial crisis was triggered by the collapse of the United States housing bubble and widespread default on subprime mortgages. Financial institutions packaged these risky subprime loans into complex Collateralized Debt Obligations (CDOs) and mortgage-backed securities (MBS) rated AAA by credit rating agencies. When housing prices plunged and interest rates rose, massive defaults triggered credit freeze, the bankruptcy of Lehman Brothers, liquidity crises in major investment banks, and severe global economic contraction.",
+    "relevant_documents": [
+      "The_2008_Financial_Crisis.txt"
+    ],
+    "key_facts": [
+      "Collapse of subprime mortgage market and housing bubble",
+      "Excessive securitization into CDOs and Mortgage-Backed Securities",
+      "Over-leveraged financial institutions and miscalculated risk ratings",
+      "Failure and bankruptcy of major institutions such as Lehman Brothers"
+    ]
+  },
+  {
+    "id": "q004",
+    "question": "What are the main causes of climate change?",
+    "category": "Climate Science",
+    "difficulty": "Fundamental",
+    "reference_answer": "The primary cause of modern climate change is anthropogenic greenhouse gas emissions, predominantly Carbon Dioxide (CO2), Methane (CH4), and Nitrous Oxide (N2O). These gases accumulate in the atmosphere and trap outgoing thermal infrared radiation via the greenhouse effect. Major drivers include the combustion of fossil fuels for energy and transport, widespread deforestation, industrial processes, and intensive agricultural livestock production.",
+    "relevant_documents": [
+      "Climate_Science_and_Global_Warming.txt"
+    ],
+    "key_facts": [
+      "Anthropogenic greenhouse gas emissions trapping thermal radiation",
+      "Combustion of fossil fuels (coal, oil, natural gas) as major source",
+      "Deforestation reducing carbon sequestration capacity",
+      "Methane and nitrous oxide emissions from agriculture and industry"
+    ]
+  },
+  {
+    "id": "q005",
+    "question": "How does quantum computing differ from classical computing?",
+    "category": "Quantum Computing",
+    "difficulty": "Advanced",
+    "reference_answer": "Classical computing processes deterministic binary bits representing 0 or 1 using silicon transistors. Quantum computing utilizes quantum bits (qubits) governed by quantum mechanical principles: Superposition allows qubits to exist in a linear combination of |0⟩ and |1⟩ states simultaneously, while Entanglement links qubit states non-locally. This enables quantum computers to explore exponentially vast computational spaces concurrently, achieving quantum speedup for specific algorithms like Shor's factoring and Grover's search.",
+    "relevant_documents": [
+      "Quantum_Computing_Principles.txt"
+    ],
+    "key_facts": [
+      "Classical bits represent definite 0 or 1; qubits use superposition",
+      "Quantum entanglement enables correlated states across multiple qubits",
+      "Quantum interference amplifies correct computational paths",
+      "Provides exponential or polynomial speedup for specialized problems"
+    ]
+  },
+  {
+    "id": "q006",
+    "question": "What is the role of backpropagation in deep neural networks?",
+    "category": "Deep Learning",
+    "difficulty": "Comprehensive",
+    "reference_answer": "Backpropagation (backward propagation of errors) is the fundamental algorithm used to train artificial neural networks. It calculates the gradient of the loss function with respect to each weight in the network by applying the mathematical chain rule of calculus backward from the output layer to the input layer. These computed gradients are then utilized by optimization algorithms like Stochastic Gradient Descent (SGD) or Adam to update weights and minimize loss.",
+    "relevant_documents": [
+      "Deep_Learning_and_Neural_Networks.txt"
+    ],
+    "key_facts": [
+      "Calculates loss function gradients with respect to network weights",
+      "Applies the multivariate calculus chain rule backward through layers",
+      "Enables gradient descent optimizers (SGD, Adam) to update weights",
+      "Solves credit assignment in deep multi-layer architectures"
+    ]
+  },
+  {
+    "id": "q007",
+    "question": "What is the Zero Trust security architecture in cybersecurity?",
+    "category": "Cybersecurity",
+    "difficulty": "Advanced",
+    "reference_answer": "Zero Trust is a modern cybersecurity framework based on the core principle of 'Never Trust, Always Verify'. Unlike perimeter-based defenses that trust internal traffic, Zero Trust assumes that threats exist both outside and inside the corporate network. It enforces strict identity authentication, multi-factor verification, least-privilege access controls, micro-segmentation of networks, and continuous real-time telemetry monitoring for every device and user transaction.",
+    "relevant_documents": [
+      "Cybersecurity_and_Zero_Trust.txt"
+    ],
+    "key_facts": [
+      "Core operating premise of 'Never Trust, Always Verify'",
+      "Eliminates implicit trust for internal network perimeters",
+      "Enforces least privilege access and continuous re-authentication",
+      "Implements network micro-segmentation and continuous telemetry"
+    ]
+  },
+  {
+    "id": "q008",
+    "question": "How does the CAP theorem apply to distributed database systems?",
+    "category": "Database Systems",
+    "difficulty": "Comprehensive",
+    "reference_answer": "The CAP theorem (Brewer's theorem) states that any distributed data store can simultaneously guarantee at most two out of three core properties: Consistency (every read receives the most recent write or error), Availability (every non-failing node returns a non-error response), and Partition Tolerance (the system continues to operate despite arbitrary network message loss or delay). In distributed systems where network partitions are inevitable, systems must trade off between CP (Consistency/Partition Tolerance) and AP (Availability/Partition Tolerance).",
+    "relevant_documents": [
+      "Distributed_Database_Systems.txt"
+    ],
+    "key_facts": [
+      "Trade-off between Consistency, Availability, and Partition Tolerance",
+      "Distributed systems cannot avoid network partition events (P)",
+      "Systems choose between CP (strong consistency) and AP (high availability)",
+      "Examples include CP systems like HBase/etcd vs AP systems like Cassandra"
+    ]
+  },
+  {
+    "id": "q009",
+    "question": "What is the Transformer architecture and self-attention mechanism in NLP?",
+    "category": "Natural Language Processing",
+    "difficulty": "Advanced",
+    "reference_answer": "The Transformer architecture replaces recurrent neural networks with a fully attention-based sequence transduction model. Its core self-attention mechanism calculates pairwise relationship scores between all token positions in a sequence using Query (Q), Key (K), and Value (V) matrix projections scaled by the square root of dimension dk. Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions with full parallelization during training.",
+    "relevant_documents": [
+      "Artificial_Intelligence_Concepts.txt"
+    ],
+    "key_facts": [
+      "Replaces recurrence with parallelizable self-attention mechanisms",
+      "Calculates Attention(Q, K, V) = softmax((Q*K^T)/sqrt(d_k)) * V",
+      "Multi-Head Attention captures diverse contextual relationships",
+      "Forms the underlying foundation of modern LLMs (BERT, GPT, Gemini)"
+    ]
+  },
+  {
+    "id": "q010",
+    "question": "What are the key architectural layers of modern Cloud Computing?",
+    "category": "Cloud Computing",
+    "difficulty": "Fundamental",
+    "reference_answer": "Modern Cloud Computing is structured around three primary service delivery models: Infrastructure as a Service (IaaS), which provides virtualized physical computing resources, servers, storage, and networking; Platform as a Service (PaaS), which delivers managed runtime environments, operating systems, and developer frameworks; and Software as a Service (SaaS), which provides fully managed, end-user application software over the web without infrastructure overhead.",
+    "relevant_documents": [
+      "Cloud_Computing_Architectures.txt"
+    ],
+    "key_facts": [
+      "IaaS provides raw virtualized compute, network, and block storage",
+      "PaaS provides managed application runtime and database environments",
+      "SaaS delivers ready-to-use software applications to end users",
+      "Shared responsibility model defines security roles across layers"
+    ]
+  }
+]

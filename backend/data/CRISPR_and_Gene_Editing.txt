@@ -1,0 +1,18 @@
+# CRISPR-Cas9 Technology and Genetic Engineering
+Document ID: DOC-BIO-002
+Subject: Molecular Mechanisms of CRISPR-Cas9 Target Recognition, Cleavage, and DNA Repair
+
+--- SECTION 1: DISCOVERY AND BACTERIAL IMMUNITY ---
+CRISPR (Clustered Regularly Interspaced Short Palindromic Repeats) and CRISPR-associated protein (Cas) systems evolved naturally as adaptive immune defense mechanisms in bacteria and archaea to defend against invading bacteriophages and foreign plasmids.
+
+--- SECTION 2: CAS9 TARGET RECOGNITION AND CLEAVAGE ---
+Engineered CRISPR-Cas9 gene editing employs two central molecular components:
+1. Cas9 Endonuclease: A multi-domain enzyme (comprising RuvC and HNH nuclease domains) responsible for cleaving both strands of double-stranded DNA.
+2. Single Guide RNA (sgRNA): A synthetic chimeric fusion of crRNA (CRISPR RNA) and tracrRNA (trans-activating crRNA). The 5' end contains a customizable 20-nucleotide spacer sequence complementary to the target genomic locus.
+
+The Cas9-gRNA ribonucleoprotein complex scans chromosomal DNA for a specific Protospacer Adjacent Motif (PAM) sequence (typically 5'-NGG-3' for Streptococcus pyogenes Cas9). Upon PAM recognition, the DNA duplex unwinds, allowing the gRNA to hybridize with the complementary protospacer strand. Upon stable R-loop formation, the HNH and RuvC catalytic domains induce a blunt double-strand break (DSB) exactly three base pairs upstream of the PAM site.
+
+--- SECTION 3: CELLULAR DNA REPAIR MECHANISMS ---
+Following the creation of a DSB, host cellular repair machinery responds via two main pathways:
+1. Non-Homologous End Joining (NHEJ): An error-prone repair pathway active throughout the cell cycle that ligates broken DNA ends without a template. This frequently introduces insertions and deletions (indels), causing frameshift mutations that knock out gene function.
+2. Homology-Directed Repair (HDR): A precise, high-fidelity repair pathway active primarily during the S and G2 phases. When an exogenous donor DNA repair template with flanking homology arms is supplied, HDR facilitates targeted gene insertion, precise correction of point mutations, and sequence replacement.

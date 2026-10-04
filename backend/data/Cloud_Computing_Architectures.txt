@@ -1,0 +1,17 @@
+# Cloud Computing Service Models and Architectural Patterns
+Document ID: DOC-CLOUD-010
+Subject: IaaS, PaaS, SaaS, Microservices, Serverless, and Shared Responsibility
+
+--- SECTION 1: CORE SERVICE DELIVERY MODELS (NIST SP 800-145) ---
+Cloud computing provides on-demand network access to a shared pool of configurable computing resources:
+1. Infrastructure as a Service (IaaS): Delivers fundamental virtualized compute instances (VMs), raw block and object storage, virtual private clouds (VPCs), and software-defined networks (e.g., AWS EC2, GCP Compute Engine, Azure VMs). The tenant manages OS, middleware, runtime, data, and applications.
+2. Platform as a Service (PaaS): Provides managed execution runtimes, managed databases, container orchestration (Kubernetes), and serverless execution environments (e.g., AWS Elastic Beanstalk, Google App Engine, Heroku). The cloud vendor manages hardware, OS, patching, and scaling; the customer manages application code and data.
+3. Software as a Service (SaaS): Delivers complete, turnkey end-user software applications over web protocols (e.g., Google Workspace, Microsoft 365, Salesforce). The provider manages all underlying infrastructure, application logic, security patching, and disaster recovery.
+
+--- SECTION 2: ARCHITECTURAL PATTERNS AND SERVERLESS ---
+Modern cloud-native systems employ distributed microservices communicating via asynchronous event buses (Kafka, SQS, RabbitMQ) and REST/gRPC APIs. Serverless architectures (Function-as-a-Service, such as AWS Lambda, Google Cloud Functions) offer event-driven compute scaling to zero with millisecond execution billing.
+
+--- SECTION 3: SHARED RESPONSIBILITY SECURITY MODEL ---
+Security in cloud environments is bifurcated:
+- The cloud provider is responsible for "Security OF the Cloud" (physical facilities, hardware infrastructure, virtualization hypervisor).
+- The customer remains responsible for "Security IN the Cloud" (data encryption in transit/at rest, IAM policies, OS patching on IaaS, firewall network rules).

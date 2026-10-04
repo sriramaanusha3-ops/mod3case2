@@ -1,0 +1,121 @@
+[
+  {
+    "id": "exp_1791143673227",
+    "question": "What is supervised learning?",
+    "winner": "RAG",
+    "rag_accuracy_pct": 69,
+    "plain_accuracy_pct": 47,
+    "sources_count": 2,
+    "timestamp": 1791143673,
+    "plain_latency_s": 1.12,
+    "rag_latency_s": 1.49,
+    "full_data": {
+      "question": "What is supervised learning?",
+      "timestamp": 1791143673,
+      "plain_llm": {
+        "answer": "Supervised learning is a type of machine learning where models are trained using labeled datasets. The model looks at inputs and tries to guess the outputs, adjusting itself until it makes fewer mistakes. Common algorithms include linear regression and neural networks. It is widely used in tech companies for things like spam filters and image tagging.",
+        "latency_ms": 1120
+      },
+      "rag": {
+        "answer": "Based on the retrieved context documents:\n\n[Source 1: Machine_Learning_Fundamentals.txt, Page 1]\n\n--- SECTION 1: SUPERVISED LEARNING PRINCIPLES ---\n\nSupervised learning is the foundational machine learning paradigm in which an algorithm is trained on an input dataset where each sample is paired with a corresponding ground-truth target label. The mathematical objective of supervised learning is to approximate an unknown mapping function f: X -> Y such that for any new input vector x in feature space X, the predicted output y_hat = f(x) closely matches the true label y in target space Y.\n\nThis grounded answer is directly supported by the retrieved repository data.",
+        "latency_ms": 1491,
+        "sources": [
+          {
+            "chunk_id": "chunk_0028",
+            "document": "Machine_Learning_Fundamentals.txt",
+            "page": 1,
+            "score": 0.4281,
+            "text": "--- SECTION 1: SUPERVISED LEARNING PRINCIPLES ---\nSupervised learning is the foundational machine learning paradigm in which an algorithm is trained on an input dataset where each sample is paired with a corresponding ground-truth target label. The mathematical objective of supervised learning is to approximate an unknown mapping function f: X -> Y such that for any new input vector x in feature space X, the predicted output y_hat = f(x) closely matches the true label y in target space Y.\n\nTraining involves feeding feature vectors through model parameters, computing a task-specific loss function (such as Mean Squared Error for continuous regression tasks or Cross-Entropy loss for categorical classification tasks), and iteratively optimizing parameters using gradient-based optimization techniques.\n\nKey supervised learning algorithms include Linear Regression, Logistic Regression, Support Vector Machines (SVMs), Decision Trees, Random Forests, Gradient Boosted Trees (e.g., XGBoost, LightGBM), and Deep Neural Networks. A critical evaluation metric in supervised learning is generalization performance on an unseen test dataset, avoiding overfitting via regularization (L1 Lasso, L2 Ridge, Dropout) and cross-validation protocols."
+          },
+          {
+            "chunk_id": "chunk_0027",
+            "document": "Machine_Learning_Fundamentals.txt",
+            "page": 1,
+            "score": 0.3054,
+            "text": "# Machine Learning Fundamentals and Paradigms\nDocument ID: DOC-ML-001\nSubject: Core Principles of Supervised, Unsupervised, and Reinforcement Learning"
+          }
+        ],
+        "chunks_retrieved": 2
+      },
+      "evaluation": {
+        "winner": "RAG",
+        "winner_reason": "Higher document support, factual coverage, and verified grounding",
+        "metrics": {
+          "winner": "RAG",
+          "winner_reason": "Higher document support, factual coverage, and verified grounding",
+          "plain_llm_accuracy_pct": 47,
+          "rag_accuracy_pct": 69,
+          "rag_groundedness_pct": 70,
+          "source_support_rating": "1.8 / 5",
+          "top_similarity_score": 0.428,
+          "chunks_retrieved": 2,
+          "documents_used": 1,
+          "plain_latency_s": 1.12,
+          "rag_latency_s": 1.49,
+          "accuracy_delta_pct": 22
+        },
+        "semantic_evaluation": {
+          "plain_semantic_similarity": 0.45,
+          "rag_semantic_similarity": 0.633,
+          "score_label": "Semantic similarity score (embedding cosine)",
+          "reference_available": true
+        },
+        "reference_answer": "Supervised learning is a machine learning paradigm where an algorithm trains on an input dataset with corresponding ground-truth target labels. The model learns a mapping function from input features to output targets, enabling it to accurately predict labels on unseen testing data through loss optimization (e.g., MSE or Cross-Entropy).",
+        "reference_facts": [
+          "Requires labeled training data with input-output pairs",
+          "Learns a mapping function from features to target labels",
+          "Common tasks include regression and classification",
+          "Minimizes loss function between predictions and ground-truth"
+        ],
+        "claim_analysis": {
+          "fact_checks": [
+            {
+              "claim_id": "claim_01",
+              "claim_text": "Requires labeled training data with input-output pairs",
+              "plain_llm_status": "Supported",
+              "plain_llm_supported": true,
+              "rag_status": "Supported by source",
+              "rag_supported": true
+            },
+            {
+              "claim_id": "claim_02",
+              "claim_text": "Learns a mapping function from features to target labels",
+              "plain_llm_status": "Unsupported",
+              "plain_llm_supported": false,
+              "rag_status": "Partially Supported",
+              "rag_supported": false
+            },
+            {
+              "claim_id": "claim_03",
+              "claim_text": "Common tasks include regression and classification",
+              "plain_llm_status": "Supported",
+              "plain_llm_supported": true,
+              "rag_status": "Supported by source",
+              "rag_supported": true
+            },
+            {
+              "claim_id": "claim_04",
+              "claim_text": "Minimizes loss function between predictions and ground-truth",
+              "plain_llm_status": "Unsupported",
+              "plain_llm_supported": false,
+              "rag_status": "Supported by source",
+              "rag_supported": true
+            }
+          ],
+          "plain_llm_hallucination": {
+            "potential_unsupported_claims": 2,
+            "supported_claims": 2,
+            "status_label": "2 potential unsupported claims",
+            "estimation_type": "Heuristic estimate"
+          },
+          "rag_hallucination": {
+            "potential_unsupported_claims": 1,
+            "supported_claims": 3,
+            "status_label": "1 potential unsupported claims",
+            "estimation_type": "Heuristic estimate"
+          }
+        }
+      }
+    }
+  }
+]

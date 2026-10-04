@@ -1,0 +1,12 @@
+# The 2008 Global Financial Crisis: Macroeconomic Drivers and Systemic Failures
+Document ID: DOC-FIN-003
+Subject: Subprime Mortgage Securitization, Liquidity Contagion, and Institutional Collapse
+
+--- SECTION 1: THE SUBPRIME MORTGAGE BOOM AND HOUSING BUBBLE ---
+During the early 2000s, low interest rates and relaxed underwriting standards in the United States led to rapid expansion of subprime mortgage lending. Lenders extended non-traditional adjustable-rate mortgages (ARMs) to borrowers with compromised credit histories. Rising property values created a speculative housing bubble predicated on the assumption that real estate prices would appreciate indefinitely.
+
+--- SECTION 2: SECURITIZATION AND SHADOW BANKING ---
+Mortgage originators sold loans to investment banks, which bundled thousands of individual mortgages into complex structured finance instruments known as Mortgage-Backed Securities (MBS) and Collateralized Debt Obligations (CDOs). Credit rating agencies (Moody's, Standard & Poor's, Fitch) awarded high-investment-grade (AAA) ratings to senior tranches through mathematical credit enhancement models that failed to account for cross-regional default correlations. Financial institutions traded Credit Default Swaps (CDS) with institutions like AIG as unregulated insurance contracts against debt default.
+
+--- SECTION 3: LIQUIDITY CRISIS, LEHMAN COLLAPSE, AND GLOBAL CONTAGION ---
+When housing prices peaked in 2006 and subprime interest rates reset upwards, borrower default rates surged. The asset-backed commercial paper market seized as financial institutions could not value toxic mortgage-backed assets on balance sheets. In March 2008, Bear Stearns was rescued in an emergency sale to JPMorgan Chase. On September 15, 2008, investment bank Lehman Brothers filed for Chapter 11 bankruptcy—the largest in US history. This triggered an unprecedented interbank credit freeze, necessitating central bank quantitative easing, the US Troubled Asset Relief Program (TARP), and extensive international sovereign bank bailouts.
